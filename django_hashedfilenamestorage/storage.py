@@ -7,7 +7,7 @@ from django.core.files.storage import FileSystemStorage
 try:
     from django.utils.encoding import force_text
 except:
-    from django.utils.encoding import force_str
+    from django.utils.encoding import force_str as force_text
 from django.core.exceptions import ImproperlyConfigured
 
 def HashedFilenameMetaStorage(storage_class):
