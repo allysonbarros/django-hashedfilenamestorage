@@ -10,7 +10,7 @@ setup(
     author_email='info@ecometrica.com',
     url='http://github.com/ecometrica/django-hashedfilenamestorage/',
     packages=['django_hashedfilenamestorage'],
-    install_requires=install_requires=['setuptools', 'django'],
+    install_requires=['setuptools', 'django'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
